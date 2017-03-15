@@ -1,6 +1,6 @@
 import {Component, OnInit} from "@angular/core";
-import {CalendarService} from "./calendar.service";
-import {Calendar} from "./calendar";
+import {CalendarService} from "./calendar/calendar.service";
+import {Calendar} from "./calendar/calendar";
 
 @Component({
   selector: 'app-root',

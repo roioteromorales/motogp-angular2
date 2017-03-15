@@ -1,3 +1,6 @@
 <h1>
   MotoGP: {{calendar.name}} - {{calendar.year}}
 </h1>
+<li *ngFor="let racePreview of calendar.races">
+  {{ racePreview.description }}
+</li>

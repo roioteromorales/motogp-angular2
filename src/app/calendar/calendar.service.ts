@@ -26,7 +26,8 @@ function mapCalendar(response: Response): Calendar {
 function toCalendar(jsonResponse: any): Calendar {
   let calendar = <Calendar>({
     name: jsonResponse.name,
-    year: jsonResponse.year
+    year: jsonResponse.year,
+    races: jsonResponse.races
   });
   console.log('Parsed Calendar:', calendar);
   return calendar;
